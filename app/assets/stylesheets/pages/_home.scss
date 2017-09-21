@@ -62,7 +62,6 @@ body {
     margin: 0px;
     font-family: 'Fascinate', cursive;
     text-shadow: 2px 2px 4px #000000;
-    -webkit-transform: rotate(-10deg);
   }
 }
 
@@ -103,6 +102,13 @@ iframe {
     margin: 0px;
     font-family: 'Fascinate', cursive;
     text-shadow: 2px 2px 4px #000000;
+    color: white;
+  }
+  h2:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -119,7 +125,6 @@ z-index: 1;
   margin: 0px;
   font-family: 'Fascinate', cursive;
   text-shadow: 2px 2px 4px white;
-  -webkit-transform: rotate(-10deg);
   color: #e52328;
   letter-spacing: 5px;
   position: absolute;
@@ -164,7 +169,7 @@ z-index: 1;
     width: 12px;
     height: 12px;
     background-color: #F5F2E7;
-    border: 1px solid white;
+    border: 1px solid #F5F2E7;
 }
 
 .carousel-indicators {
@@ -196,6 +201,5 @@ z-index: 1;
   top: 5px;
   right: -53px;
   color: black;
-  -webkit-transform: rotate(90deg);
 }
 
