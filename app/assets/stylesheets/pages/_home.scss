@@ -44,6 +44,14 @@ body {
   }
 }
 
+@media screen and (max-width: 513px) {
+  .accroche {
+    text-align: center;
+    left: 20px;
+    right: 20px;
+  }
+}
+
 iframe {
   border-left: 30px solid black;
   border-right: 30px solid black;
@@ -83,6 +91,19 @@ iframe {
   }
 }
 
+@media screen and (max-width: 513px) {
+  .contact {
+    right: 20px;
+    left: 20px;
+    text-align: center;
+    bottom: 70px;
+    h2 {
+    font-size: 25px;
+  }
+  }
+}
+
+
 
 .nextgig {
   position: absolute;
@@ -99,6 +120,19 @@ iframe {
   }
   a {
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .nextgig {
+    flex-flow: row;
+    left: 20%;
+    right: 20%;
+    justify-content: space-around;
+    top: 170px;
+    i {
+    margin-top: 0px;
+    }
   }
 }
 
