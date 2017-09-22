@@ -1,40 +1,33 @@
-<div class="wraper-home" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%), url('<%= image_path('background.jpg') %>');">
-    <div class="accroche">
-      <h2>FANTASTIC<br>MISTER<br>ZGUY</h2>
-    </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-              <iframe class="d-block img-fluid" width="560" height="315" src="https://www.youtube.com/embed/8ez0S8jaZVM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen alt="First slide"></iframe>
-          </div>
-
-          <div class="item">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/BeE_HypFkco?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-
-          <div class="item">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/XwQNWGAwCGA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-
-          <div class="item">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/MhX9vFvIMI4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="contact">
-        <a href="" style="cursor: pointer"><h2>OUR GIGS</h2></a>
-        <a href="http://smarturl.it/83kpqc" style="cursor: pointer"><h2>OUR MUSIC</h2></a>
-        <a href="https://www.youtube.com/channel/UCHoYf2PoHZpKxQJnzsRA1Pg/videos" style="cursor: pointer"><h2>ALL VIDEOS</h2></a>
-        <a href="" style="cursor: pointer"><h2>CONTACT US</h2></a>
-      </div>
-      <h3 class="cool">We play<br>FEEL GOOD</h3>
+<div class="wraper-home" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%);">
+  <div class="accroche">
+    <h2>FANTASTIC<br>MISTER<br>ZGUY</h2>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ez0S8jaZVM?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+  <div class="contact">
+    <a type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm"><h2 style="color: #e52328;    text-shadow: 3px 3px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">GIGS</h2></a>
+    <a href="https://itunes.apple.com/fr/artist/fantastic-mister-zguy/id1049737307" style="cursor: pointer" target="_blank"><h2>BUY FMZ</h2></a>
+    <a href="http://smarturl.it/83kpqc" style="cursor: pointer" target="_blank"><h2>OUR MUSIC</h2></a>
+    <a href="https://www.youtube.com/channel/UCHoYf2PoHZpKxQJnzsRA1Pg/videos" style="cursor: pointer" target="_blank"><h2>ALL VIDEOS</h2></a>
+    <a href="" style="cursor: pointer"><h2>CONTACT US</h2></a>
+  </div>
+  <h3 class="cool">We play<br>FEEL GOOD</h3>
+  <div class="nextgig">
+    <a href="https://www.facebook.com/FantasticMisterZguy/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="https://open.spotify.com/artist/0yBkxUvlgbxKXQmjQ252iu"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+    <a href="https://itunes.apple.com/fr/artist/fantastic-mister-zguy/id1049737307"><i class="fa fa-apple" aria-hidden="true"></i></a>
+  </div>
 </div>
 
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h2>FANTASTIC GIGS</h2>
+      <p><strong>28.09</strong><br>Pop Up Du Label - Paris</p>
+      <a href="https://www.facebook.com/events/363667654062192/" target="_blank">Event</a>
+      <p><strong>14.10</strong><br>Bus Palladium - Paris</p>
+      <a href="https://www.facebook.com/events/140651593215384/" target="_blank">Event</a>
+    </div>
+  </div>
+</div>
