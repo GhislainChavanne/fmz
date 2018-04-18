@@ -1,0 +1,75 @@
+.wrapper-ep {
+  position: relative;
+  border-left: 15px solid #333333;
+  height: 100vh;
+}
+
+.artwork {
+  img {
+    width: 250px;
+  }
+}
+
+.title-ep {
+  h1 {
+    color: #333333;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 10;
+  }
+}
+
+.songs-ep {
+  h3 {
+    color: #333333;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 10;
+  }
+}
+
+.links-ep {
+  margin-top: 50px;
+  a {
+    margin-right: 30px;
+    background-color: #333333;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+.image-ep {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  width: 300px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper-ep {
+  height: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .image-ep {
+    top: 0px;
+  width: 150px;
+  right: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-ep {
+  width: 100px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  }
+}
+

@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 2px;
   color: #F5F2E7;
+  background-color: white;
 }
 
 .wraper-home {
@@ -32,7 +33,7 @@ body {
   text-align: center;
   z-index: 15;
   h5 {
-  font-family: 'Fascinate', cursive;
+  font-family: 'open-sans', sans-serif;
   }
 }
 
@@ -45,7 +46,9 @@ body {
   z-index: 15;
   h2 {
     margin: 0px;
-    font-family: 'Fascinate', cursive;
+    font-family: 'open-sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
     text-shadow: 2px 2px 4px #000000;
   }
 }
@@ -90,10 +93,32 @@ iframe {
   text-align: right;
   z-index: 15;
   h2 {
-    margin: 0px;
-    font-family: 'Fascinate', cursive;
+    margin: 3px;
+    font-family: 'open-sans', sans-serif;
     text-shadow: 2px 2px 4px #000000;
     color: white;
+    font-size: 20px;
+  }
+  h2:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.ep {
+  position: absolute;
+  top: 60px;
+  right: 35px;
+  text-align: right;
+  z-index: 15;
+  h2 {
+    margin: 3px;
+    font-family: 'open-sans', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font-size: 20px;
   }
   h2:hover {
     opacity: 0.8;
@@ -114,7 +139,6 @@ iframe {
   }
   }
 }
-
 
 
 .nextgig {
@@ -154,7 +178,7 @@ iframe {
   color: black;
   position: relative;
   h2 {
-    font-family: 'Fascinate', cursive;
+    font-family: 'open-sans', sans-serif;
       margin-bottom: 30px;
   }
   button {
@@ -176,55 +200,6 @@ iframe {
   padding: 0px;
 }
 
-.cool {
-  margin: 0px;
-  font-family: 'Fascinate', cursive;
-  text-shadow: 3px 3px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-  color: #e52328;
-  letter-spacing: 5px;
-  position: absolute;
-  top: 40px;
-  right: 35px;
-  text-align: center;
-  text-align: center;
-  text-transform: uppercase;
-  animation: move linear 4000ms infinite;
-  z-index: 15;
-}
-
-@media screen and (max-width: 513px) {
-  .cool {
-    display: none;
-  }
-}
-
-@keyframes move {
-  25% {
-    text-shadow:
-      -4px -4px 0 hsla(180, 100%, 50%, 1),
-      -3px -3px 0 hsla(180, 100%, 50%, 1),
-      -2px -2px 0 hsla(180, 100%, 50%, 1),
-      -1px -1px 0 hsla(180, 100%, 50%, 1),
-      4px 4px 0 hsla(0, 100%, 50%, 1),
-      3px 3px 0 hsla(0, 100%, 50%, 1),
-      2px 2px 0 hsla(0, 100%, 50%, 1),
-      1px 1px 0 hsla(0, 100%, 50%, 1)
-    ;
-  }
-
-  75% {
-    text-shadow:
-      4px 4px 0 hsla(180, 100%, 50%, 1),
-      3px 3px 0 hsla(180, 100%, 50%, 1),
-      2px 2px 0 hsla(180, 100%, 50%, 1),
-      1px 1px 0 hsla(180, 100%, 50%, 1),
-      -4px -4px 0 hsla(0, 100%, 50%, 1),
-      -3px -3px 0 hsla(0, 100%, 50%, 1),
-      -2px -2px 0 hsla(0, 100%, 50%, 1),
-      -1px -1px 0 hsla(0, 100%, 50%, 1)
-    ;
-  }
-}
 
 
 
