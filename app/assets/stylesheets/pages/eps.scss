@@ -1,18 +1,45 @@
 .wrapper-ep {
   position: relative;
-  border-left: 15px solid #333333;
+  padding-top: 30px;
+  padding-bottom: 30px;
   height: 100vh;
+  .image-fmz {
+    position: absolute; left: 10px;
+    top: 10px;
+    width: 40px;
+  }
+  .image-fmz1 {
+    position: absolute; right: 50px;
+    bottom: 0px;
+    width: 70px;
+  }
 }
 
 .artwork {
+  width: 100%;
   img {
-    width: 250px;
+    width: 300px;
+    text-align: right;
+    float: right;
+  }
+  iframe {
+    margin-top: 30px;
+    float: right;
   }
 }
 
 .title-ep {
   h1 {
-    color: #333333;
+    color: black;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 10;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  p {
+    color: black;
     font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -22,7 +49,7 @@
 
 .songs-ep {
   h3 {
-    color: #333333;
+    color: black;
     font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -31,45 +58,85 @@
 }
 
 .links-ep {
-  margin-top: 50px;
+  width: 300px;
+  margin-bottom: 20px;
   a {
     margin-right: 30px;
-    background-color: #333333;
     display: inline-block;
-    color: white;
+    color: black;
     padding: 5px;
     margin-bottom: 20px;
+    margin: auto;
   }
 }
 
 .image-ep {
-  position: absolute;
-  top: 20px;
-  right: 0px;
   width: 300px;
   z-index: 2;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 989px) {
   .wrapper-ep {
-  height: auto;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 900px) {
-  .image-ep {
-    top: 0px;
-  width: 150px;
-  right: 30px;
+@media screen and (max-width: 989px) {
+  .artwork {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    img {
+      float: none;
+      margin: auto;
+    }
+    iframe {
+      float: none;
+      margin: auto;
+      height: 300px;
+    }
   }
 }
 
-@media screen and (max-width: 500px) {
-  .image-ep {
-  width: 100px;
-  position: relative;
-  top: 0px;
-  right: 0px;
+@media screen and (max-width: 642px) {
+  .artwork {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    img {
+      width: 280px;
+      margin: auto;
+      margin-bottom: 30px
+    }
+    iframe {
+      width: 280px;
+      margin: auto;
+    }
   }
 }
 
+
+@media screen and (max-width: 642px) {
+  .title-ep {
+    text-align: center;
+    margin-bottom: 40px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .links-ep {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .songs-ep {
+    margin-bottom: 40px;
+      h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}
