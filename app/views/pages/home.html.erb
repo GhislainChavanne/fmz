@@ -1,18 +1,41 @@
-<div class="wraper-home" style="">
-  <div class="accroche">
-    <h2>Fantastic<br>Mister<br>Zguy</h2>
+<% content_for :meta_title, "Fantastic Mister Zguy - Hi there." %>
+<% content_for :meta_description, "Fantastic Mister Zguy is a Feel Good Indie Music Artist. He's from Paris and you should dig his music." %>
+<% content_for :meta_image, "surf.jpg" %>
+
+<div class="wrapper wrapper-ep" style="border: 10px solid white; border-bottom: none; background-color: #f0f0f0;">
+  <div class="container" style="padding-bottom: 10px; padding-top: 10px;">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="title-ep">
+          <h1>FANTASTIC MISTER ZGUY</h1>
+          <div class="links-ep">
+          <a href="https://open.spotify.com/artist/0yBkxUvlgbxKXQmjQ252iu?si=5cnnOHURQuexpyAatpZMew" target="_blank"><i class="fab fa-spotify" target="_blank"></i></a>
+          <a href="https://www.youtube.com/channel/UCHoYf2PoHZpKxQJnzsRA1Pg" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://itunes.apple.com/fr/artist/fantastic-mister-zguy/1049737307" target="_blank"><i class="fab fa-apple"></i></a>
+          <a href="/"><i class="fas fa-home"></i></a>
+        </div>
+          <p>Fantastic Mister Zguy est un artiste de Rock Indie. Originaire de Paris, il a sorti 3 mini albums. <br>Découvrez chacun de leurs univers en cliquant sur les liens ci dessous.</p>
+        </div>
+        <div class="home-eps">
+          <a href="/shrimpfishery"><h3>SHRIMP FISHERY - 2016</h3></a>
+          <a href="/ohmeohmy"><h3>OH ME OH MY - 2017</h3></a>
+          <a href="/surfantastic"><h3>SURFANTASTIC - 2018</h3></a>
+        </div>
+        <iframe src="https://open.spotify.com/embed?uri=spotify:user:115988117:playlist:3YjLocTFpfbYr0nnAJseGg&theme=white" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+      <div class="col-md-5">
+        <div class="artwork">
+          <%= image_tag("shrimpfishery.jpg", class: "image-ep")  %>
+          <%= image_tag("Oh-Me-Oh-My.png", class: "image-ep")  %>
+          <%= image_tag("Surfantastic.png", class: "image-ep")  %>
+        </div>
+      </div>
+    </div>
   </div>
-  <iframe width="" height="" src="https://www.youtube.com/embed/kbkkl6WQrqE?rel=0&amp;showinfo=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
-  <div class="contact">
-    <h2 style="color: #e52328; font-size: 28px; margin-bottom: 20px; text-shadow: 3px 3px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">Eps</h2>
-    <a href="/surfantastic" style="cursor: pointer"><h2>SurFantastic</h2></a>
-    <a href="/ohmeohmy" style="cursor: pointer"><h2>Oh Me Oh My</h2></a>
-    <a href="/shrimpfishery" style="cursor: pointer"><h2>Shrimp Fishery</h2></a>
-  </div>
-  <div class="nextgig">
-    <a href="https://www.facebook.com/FantasticMisterZguy/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-    <a href="https://open.spotify.com/artist/0yBkxUvlgbxKXQmjQ252iu" target="_blank"><i class="fab fa-spotify" aria-hidden="true"></i></a>
-    <a href="https://itunes.apple.com/fr/artist/fantastic-mister-zguy/id1049737307" target="_blank"><i class="fab fa-apple" aria-hidden="true"></i></a>
+  <a href="/">
+    <%= image_tag("fmz.png", class: "image-fmz")  %>
+  </a>
+  <div class="abonnement">
+  <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0yBkxUvlgbxKXQmjQ252iu&size=basic&theme=light" width="200" height="28" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
   </div>
 </div>
-
