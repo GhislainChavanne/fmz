@@ -1,8 +1,6 @@
 .wrapper-ep {
   position: relative;
   padding-top: 30px;
-  padding-bottom: 30px;
-  height: 100vh;
   .image-fmz {
     position: absolute; left: 10px;
     top: 10px;
@@ -13,14 +11,20 @@
     bottom: 0px;
     width: 70px;
   }
+  .abonnement {
+    position: absolute;
+    top: 5px;
+    left: 75px;
+  }
 }
 
 .artwork {
   width: 100%;
   img {
-    width: 300px;
     text-align: right;
     float: right;
+    border: 10px solid white;
+    border-radius: 4px;
   }
   iframe {
     margin-top: 30px;
@@ -30,16 +34,18 @@
 
 .title-ep {
   h1 {
-    color: black;
+    color: white;
     font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
     z-index: 10;
     margin-top: 0px;
     margin-bottom: 5px;
+    text-shadow: 2px 2px #333366;
+    font-size: 80px;
   }
   p {
-    color: black;
+    color: #333366;
     font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -47,9 +53,20 @@
   }
 }
 
-.songs-ep {
+.videos-ep {
   h3 {
-    color: black;
+    color: #333366;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 10;
+    margin: 5px;
+  }
+}
+
+.songs-ep {
+  p {
+    color: #333366;
     font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -63,7 +80,7 @@
   a {
     margin-right: 30px;
     display: inline-block;
-    color: black;
+    color: #333366;
     padding: 5px;
     margin-bottom: 20px;
     margin: auto;
@@ -71,8 +88,9 @@
 }
 
 .image-ep {
-  width: 300px;
+  width: 250px;
   z-index: 2;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 989px) {
@@ -134,8 +152,12 @@
   }
   .songs-ep {
     margin-bottom: 40px;
-      h3 {
-      font-size: 24px;
+      p {
+      text-align: center;
+    }
+  }
+  .videos-ep {
+    h3 {
       text-align: center;
     }
   }

@@ -2,32 +2,39 @@
 <% content_for :meta_description, "Oh Me Oh My is Fantastic Mister Zguy's second EP" %>
 <% content_for :meta_image, "Oh-Me-Oh-My.png" %>
 
-<div class="wrapper wrapper-ep">
+<div class="wrapper wrapper-ep" style="border: 10px solid white; background-color: #ff5f5f">
   <div class="container" style="padding-bottom: 10px; padding-top: 10px;">
     <div class="row">
       <div class="col-md-7">
         <div class="title-ep">
           <h1>Oh Me Oh My <span style="font-size: 14px;">(2017)</span></h1>
           <div class="links-ep">
-          <a href="https://open.spotify.com/album/2SdoeS9r8V7sAh9lK8UJ7s?si=nnnuGtOtSb6n2ywcPqVLmw" target="_blank"><i class="fab fa-spotify"></i></a>
-          <a href="https://www.youtube.com/watch?v=BeE_HypFkco&list=PLag9Kni7Y4y9F9NWcWMIZp8E_7fXKGAW5" target="_blank"><i class="fab fa-youtube"></i></a>
-          <a href="https://itunes.apple.com/fr/album/oh-me-oh-my-ep/1243443032" target="_blank"><i class="fab fa-apple"></i></a>
-          <a href="/"><i class="fas fa-home"></i></a>
+          <a href="https://open.spotify.com/album/2SdoeS9r8V7sAh9lK8UJ7s?si=nnnuGtOtSb6n2ywcPqVLmw" target="_blank" style="color: white;"><i class="fab fa-spotify"></i></a>
+          <a href="https://www.youtube.com/watch?v=BeE_HypFkco&list=PLag9Kni7Y4y9F9NWcWMIZp8E_7fXKGAW5" target="_blank" style="color: white;"><i class="fab fa-youtube"></i></a>
+          <a href="https://itunes.apple.com/fr/album/oh-me-oh-my-ep/1243443032" target="_blank" style="color: white;"><i class="fab fa-apple"></i></a>
+          <a href="/" style="color: white;"><i class="fas fa-home"></i></a>
         </div>
-          <p>EP autobiographique, "Oh Me Oh My" est la master piece de FMZ. EP mélodieux, sensible et groovy, il a été recordé à Tropicalia avec l'aide du Grand Guillaume Jaoul. Peace.</p>
+          <p style="color: white;">EP autobiographique, "Oh Me Oh My" est la master piece de FMZ. EP mélodieux, sensible et groovy, il a été recordé à Tropicalia avec l'aide du Grand Guillaume Jaoul. Peace.</p>
         </div>
         <div class="songs-ep">
-          <h3>1. Zguy and the doctor</h3>
-          <h3>2. Tropical Truit</h3>
-          <h3>3. Zguy on the silk road</h3>
-          <h3>4. Electric guitare I</h3>
-          <h3>5. The Speedo Song</h3>
+          <p style="color: white;">1. Zguy and the doctor <br>
+          2. Tropical Truit <br>
+          3. Zguy on the silk roadb <br>
+          4. Electric guitare I <br>
+          5. The Speedo Song</p>
+          <iframe src="https://open.spotify.com/embed?uri=spotify:album:2SdoeS9r8V7sAh9lK8UJ7s&theme=white" width="300" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="videos-ep">
+          <h3 style="color: white;">All Videos</h3>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/XwQNWGAwCGA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/8ez0S8jaZVM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/BeE_HypFkco?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
       <div class="col-md-5">
         <div class="artwork">
           <%= image_tag("Oh-Me-Oh-My.png", class: "image-ep")  %>
-          <iframe src="https://open.spotify.com/embed/album/2SdoeS9r8V7sAh9lK8UJ7s" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <%= image_tag("oh.jpg", class: "image-ep")  %>
         </div>
       </div>
     </div>
@@ -35,5 +42,7 @@
   <a href="/">
     <%= image_tag("fmz.png", class: "image-fmz")  %>
   </a>
-<%= image_tag("fmz2.png", class: "image-fmz1")  %>
+  <div class="abonnement">
+  <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0yBkxUvlgbxKXQmjQ252iu&size=basic&theme=light" width="200" height="28" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+  </div>
 </div>
