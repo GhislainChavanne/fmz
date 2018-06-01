@@ -16,13 +16,13 @@
 .artwork {
   width: 100%;
   img {
+    width: 300px;
     text-align: right;
     float: right;
     border: 10px solid white;
     border-radius: 4px;
   }
   iframe {
-    margin-top: 30px;
     float: right;
   }
 }
@@ -30,7 +30,6 @@
 .title-ep {
   h1 {
     color: white;
-    font-family: "open-sans", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
     z-index: 10;
@@ -41,29 +40,29 @@
   }
   p {
     color: #333366;
-    font-family: "open-sans", sans-serif;
-    font-weight: bold;
     letter-spacing: 3px;
     z-index: 10;
+    text-align: justify;
   }
 }
 
 .videos-ep {
   h3 {
-    color: #333366;
-    font-family: "open-sans", sans-serif;
+    color: white;
     font-weight: bold;
     letter-spacing: 3px;
     z-index: 10;
-    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #333366;
+    font-size: 40px;
+    margin-top: 30px;
   }
 }
 
 .songs-ep {
   p {
     color: #333366;
-    font-family: "open-sans", sans-serif;
-    font-weight: bold;
     letter-spacing: 3px;
     z-index: 10;
   }
@@ -88,6 +87,22 @@
   margin-bottom: 10px;
 }
 
+.home-eps {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h3 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 10;
+    margin-top: 0px;
+    text-shadow: 2px 2px #333366;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+
 @media screen and (max-width: 989px) {
   .wrapper-ep {
     height: auto;
@@ -95,23 +110,6 @@
 }
 
 @media screen and (max-width: 989px) {
-  .artwork {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    img {
-      float: none;
-      margin: auto;
-    }
-    iframe {
-      float: none;
-      margin: auto;
-      height: 300px;
-    }
-  }
-}
-
-@media screen and (max-width: 642px) {
   .artwork {
     margin-top: 40px;
     display: flex;
@@ -157,4 +155,9 @@
       text-align: center;
     }
   }
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #333366;
 }
