@@ -23,7 +23,12 @@
     border-radius: 4px;
   }
   iframe {
+    width: 300px;
+    text-align: right;
     float: right;
+    border: 10px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
   }
 }
 
@@ -171,4 +176,9 @@ a:hover {
     text-shadow: 2px 2px white;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.contour {
+  border: 10px solid white;
+  border-radius: 6px;
 }
