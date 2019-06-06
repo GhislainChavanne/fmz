@@ -1,0 +1,47 @@
+.banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover !important;
+  position: relative;
+  background-position: center;
+}
+
+.banner-content {
+  h1 {
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+    color: #080808;
+    margin: 0px;
+    font-size: 30px;
+    display:inline-block;
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  a {
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px solid black;
+    color: #080808;
+    padding: 15px;
+  }
+}
+
+.description {
+  position: absolute;
+  background-color: white;
+  color: #080808;
+  bottom: 0px;
+  right: 0px;
+  padding: 15px;
+  font-weight: bold;
+  width: 300px;
+  text-align: center;
+}
